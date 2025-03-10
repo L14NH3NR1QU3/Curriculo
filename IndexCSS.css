@@ -1,0 +1,27 @@
+body{
+    background-color: #e9dbf3;
+}
+h1.name{
+    text-align: center;
+}
+div.base{
+    background-color: #d2b1eb;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    text-align: justify;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 500px;
+    width: auto;
+}
+div.you{
+    width: auto;
+    height: 300px;
+    text-align: center;
+    background-image: url("./PlanoFundo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
