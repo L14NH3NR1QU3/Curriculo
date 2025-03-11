@@ -1,27 +1,38 @@
 body{
-    background-color: #e9dbf3;
+    background-color: #fbf4ff;
 }
 h1.name{
     text-align: center;
 }
 div.base{
-    background-color: #d2b1eb;
-    padding-left: 50px;
-    padding-right: 50px;
+    background-color: #dfdcfa;
+    padding: 30px;
     border-radius: 15px;
     text-align: justify;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    height: 500px;
+    margin: 10px auto;
+    max-width: 600px;
+    height: auto;
     width: auto;
+}
+div.button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 div.you{
     width: auto;
     height: 300px;
     text-align: center;
-    background-image: url("./PlanoFundo.png");
+    background-image: url("./Imagens/PlanoFundo.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+img.redes{
+    height: 50px;
+    width: 50px;
+}
+img.icon{
+    height: 30px;
+    width: 30px;
 }
